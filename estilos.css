@@ -57,6 +57,11 @@ nav a{
     font-weight: 900;
     text-decoration: none;
     padding: 0px 13px;
+    transition: font-size 0.5s;
+}
+nav a:hover{
+    font-size: 175%;
+    color: rgb(41, 146, 179);
 }
 main{
     height: calc(100vh - 110px);
@@ -121,6 +126,7 @@ footer{
 section{
     height: calc( 100vh - 110px);
     width: 100%;
+    background-image: radial-gradient(#A74473, #985693, #7E68AB, #5D79B8, #3B87BA, #2992B3);
 }
 .sectionPerfil{
     height: calc( 100vh - 110px);
@@ -139,7 +145,7 @@ section{
     height: 250px;
     width: 250px;
     border-radius: 180px;
-    border: 5px solid rgb(41, 146, 179);
+    border: 5px solid black;
 }
 .iconoPerfil{
     width: 500px;
@@ -159,13 +165,14 @@ section{
 .textoPerfil1{
     font-size: 50px;
     font-family: 'Tapestry', cursive;
-    color: rgb(41, 146, 179);
+    color: black;
     text-align: right;
     margin-bottom: 30px;
 }
 .textoPerfil2{
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
     text-align: justify;
+    font-weight: 500;
 }
 .iconosPerfil{
     width: 400px;
@@ -177,7 +184,7 @@ section{
     font-size: 30px;
 }
 div a{
-    color: rgb(41, 146, 179);
+    color: black;
 }
 .tituloCurriculum{
     width: 350px;
@@ -190,7 +197,7 @@ div a{
     top: 100px;
 }
 .tituloCurriculum span{
-    color: rgb(41, 146, 179);
+    color: black;
     padding-left: 30px;
 }
 .textoCurriculum1{
@@ -202,7 +209,8 @@ div a{
     padding: 5px;
 }
 .textoCurriculum1 p{
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
+    font-weight: 500;
     padding-top: 20px;
 }
 .textoCurriculum2{
@@ -213,7 +221,8 @@ div a{
     bottom: 100px;
 }
 .textoCurriculum2 p{
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
+    font-weight: 500;
     padding-top: 20px;
 }
 .textoCurriculum3{
@@ -224,7 +233,8 @@ div a{
     right: 150px;
 }
 .textoCurriculum3 p{
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
+    font-weight: 500;
     padding-top: 20px;
 }
 .textoCurriculum4{
@@ -235,33 +245,34 @@ div a{
     right: 150px;
 }
 .textoCurriculum4 p{
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
+    font-weight: 500;
     padding-top: 20px;
 }
 .iconoCurriculum1{
     font-size: 60px;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     top: 230px;
     left: 50px;
 }
 .iconoCurriculum2{
     font-size: 60px;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     bottom: 140px;
     left: 50px;
 }
 .iconoCurriculum3{
     font-size: 60px;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     top: 230px;
     right: 600px;
 }
 .iconoCurriculum4{
     font-size: 60px;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     bottom: 140px;
     right: 600px;
@@ -271,7 +282,7 @@ div a{
     height: 50px;
     font-size: 35px;
     font-family: 'Tapestry', cursive;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     right: 500px;
     top: 100px;
@@ -290,7 +301,8 @@ div a{
     left: 100px;
     top: 250px;
     font-size: 23px;
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
+    font-weight: 500;
 }
 .listaServicios ul{
     list-style: square;
@@ -300,15 +312,15 @@ div a{
     height: 300px;
     right: 100px;
     top: 205px;
-    border: 5px solid rgb(41, 146, 179);
+    border: 5px solid black;
     border-radius: 10px;
 }
 form{
-    border: 5px solid rgb(41, 146, 179);
+    border: 5px solid black;
     width: 320px;
     height: 410px;
     padding: 15px;
-    color: rgb(78, 77, 77);
+    color: rgb(20, 20, 20);
     position: absolute;
     top: 130px;
     right: 100px;
@@ -319,14 +331,14 @@ form label{
 form input{
     margin-bottom: 10px;
     width: 280px;
-    background-color: rgb(95, 178, 204);
+    background-color: white;
     font-weight: 700;
 }
 form textarea{
     width: 280px;
     height: 100px;
     margin-bottom: 30px;
-    background-color: rgb(95, 178, 204);
+    background-color: white;
     font-weight: 700;
 }
 .iconoContacto{
@@ -341,7 +353,7 @@ form textarea{
     height: 50px;
     font-size: 45px;
     font-family: 'Tapestry', cursive;
-    color: rgb(41, 146, 179);
+    color: black;
     position: absolute;
     left: 200px;
     top: 100px;
@@ -356,4 +368,5 @@ form textarea{
     position: absolute;
     bottom: 70px;
     left: 200px;
+    border: 5px solid black;
 }
